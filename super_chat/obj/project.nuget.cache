@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lifo5vh838ALWp9pUg6Q8xv7jMjKwTJgT10bSrFziHO7RXfEGLMtcrOqFKqh3ZwzQYfFLCitxhGng3vGP8f40w==",
+  "success": true,
+  "projectFilePath": "D:\\桌面\\chat_os\\super_chat\\super_chat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\86150\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\86150\\.nuget\\packages\\npgsql\\7.0.1\\npgsql.7.0.1.nupkg.sha512",
+    "C:\\Users\\86150\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

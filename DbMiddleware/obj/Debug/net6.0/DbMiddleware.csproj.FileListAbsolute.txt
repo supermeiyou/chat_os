@@ -1,0 +1,12 @@
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\bin\Debug\net6.0\DbMiddleware.deps.json
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\bin\Debug\net6.0\DbMiddleware.dll
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\bin\Debug\net6.0\DbMiddleware.pdb
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.csproj.AssemblyReference.cache
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.AssemblyInfoInputs.cache
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.AssemblyInfo.cs
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.csproj.CoreCompileInputs.cache
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.dll
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\refint\DbMiddleware.dll
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\DbMiddleware.pdb
+C:\Users\86150\Documents\GitHub\SuperMovieSDK\DbMiddleware\obj\Debug\net6.0\ref\DbMiddleware.dll

@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>super_chat.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bbwauijr.bnc~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DbMiddleware">
+      <HintPath>..\DbMiddleware\bin\Debug\net6.0\DbMiddleware.dll</HintPath>
+    </Reference>
+    <Reference Include="DbMiddlewarePostgresImpl">
+      <HintPath>..\DbMiddlewarePostgresImpl\bin\Debug\net6.0\DbMiddlewarePostgresImpl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

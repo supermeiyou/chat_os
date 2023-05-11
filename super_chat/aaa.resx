@@ -1,0 +1,129 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 15</value>
+  </metadata>
+  <data name="imageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAEZTeXN0ZW0uV2luZG93cy5Gb3JtcywgQ3VsdHVyZT1uZXV0cmFs
+        LCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAmU3lzdGVtLldpbmRvd3MuRm9ybXMu
+        SW1hZ2VMaXN0U3RyZWFtZXIBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYgwAAAJNU0Z0AUkBTAIBAQMB
+        AAFwAQEBcAEBARABAAEQAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMAAUADAAEQAwABAQEAAQgG
+        AAEEGAABgAIAAYADAAKAAQABgAMAAYABAAGAAQACgAIAA8ABAAHAAdwBwAEAAfABygGmAQABMwUAATMB
+        AAEzAQABMwEAAjMCAAMWAQADHAEAAyIBAAMpAQADVQEAA00BAANCAQADOQEAAYABfAH/AQACUAH/AQAB
+        kwEAAdYBAAH/AewBzAEAAcYB1gHvAQAB1gLnAQABkAGpAa0CAAH/ATMDAAFmAwABmQMAAcwCAAEzAwAC
+        MwIAATMBZgIAATMBmQIAATMBzAIAATMB/wIAAWYDAAFmATMCAAJmAgABZgGZAgABZgHMAgABZgH/AgAB
+        mQMAAZkBMwIAAZkBZgIAApkCAAGZAcwCAAGZAf8CAAHMAwABzAEzAgABzAFmAgABzAGZAgACzAIAAcwB
+        /wIAAf8BZgIAAf8BmQIAAf8BzAEAATMB/wIAAf8BAAEzAQABMwEAAWYBAAEzAQABmQEAATMBAAHMAQAB
+        MwEAAf8BAAH/ATMCAAMzAQACMwFmAQACMwGZAQACMwHMAQACMwH/AQABMwFmAgABMwFmATMBAAEzAmYB
+        AAEzAWYBmQEAATMBZgHMAQABMwFmAf8BAAEzAZkCAAEzAZkBMwEAATMBmQFmAQABMwKZAQABMwGZAcwB
+        AAEzAZkB/wEAATMBzAIAATMBzAEzAQABMwHMAWYBAAEzAcwBmQEAATMCzAEAATMBzAH/AQABMwH/ATMB
+        AAEzAf8BZgEAATMB/wGZAQABMwH/AcwBAAEzAv8BAAFmAwABZgEAATMBAAFmAQABZgEAAWYBAAGZAQAB
+        ZgEAAcwBAAFmAQAB/wEAAWYBMwIAAWYCMwEAAWYBMwFmAQABZgEzAZkBAAFmATMBzAEAAWYBMwH/AQAC
+        ZgIAAmYBMwEAA2YBAAJmAZkBAAJmAcwBAAFmAZkCAAFmAZkBMwEAAWYBmQFmAQABZgKZAQABZgGZAcwB
+        AAFmAZkB/wEAAWYBzAIAAWYBzAEzAQABZgHMAZkBAAFmAswBAAFmAcwB/wEAAWYB/wIAAWYB/wEzAQAB
+        ZgH/AZkBAAFmAf8BzAEAAcwBAAH/AQAB/wEAAcwBAAKZAgABmQEzAZkBAAGZAQABmQEAAZkBAAHMAQAB
+        mQMAAZkCMwEAAZkBAAFmAQABmQEzAcwBAAGZAQAB/wEAAZkBZgIAAZkBZgEzAQABmQEzAWYBAAGZAWYB
+        mQEAAZkBZgHMAQABmQEzAf8BAAKZATMBAAKZAWYBAAOZAQACmQHMAQACmQH/AQABmQHMAgABmQHMATMB
+        AAFmAcwBZgEAAZkBzAGZAQABmQLMAQABmQHMAf8BAAGZAf8CAAGZAf8BMwEAAZkBzAFmAQABmQH/AZkB
+        AAGZAf8BzAEAAZkC/wEAAcwDAAGZAQABMwEAAcwBAAFmAQABzAEAAZkBAAHMAQABzAEAAZkBMwIAAcwC
+        MwEAAcwBMwFmAQABzAEzAZkBAAHMATMBzAEAAcwBMwH/AQABzAFmAgABzAFmATMBAAGZAmYBAAHMAWYB
+        mQEAAcwBZgHMAQABmQFmAf8BAAHMAZkCAAHMAZkBMwEAAcwBmQFmAQABzAKZAQABzAGZAcwBAAHMAZkB
+        /wEAAswCAALMATMBAALMAWYBAALMAZkBAAPMAQACzAH/AQABzAH/AgABzAH/ATMBAAGZAf8BZgEAAcwB
+        /wGZAQABzAH/AcwBAAHMAv8BAAHMAQABMwEAAf8BAAFmAQAB/wEAAZkBAAHMATMCAAH/AjMBAAH/ATMB
+        ZgEAAf8BMwGZAQAB/wEzAcwBAAH/ATMB/wEAAf8BZgIAAf8BZgEzAQABzAJmAQAB/wFmAZkBAAH/AWYB
+        zAEAAcwBZgH/AQAB/wGZAgAB/wGZATMBAAH/AZkBZgEAAf8CmQEAAf8BmQHMAQAB/wGZAf8BAAH/AcwC
+        AAH/AcwBMwEAAf8BzAFmAQAB/wHMAZkBAAH/AswBAAH/AcwB/wEAAv8BMwEAAcwB/wFmAQAC/wGZAQAC
+        /wHMAQACZgH/AQABZgH/AWYBAAFmAv8BAAH/AmYBAAH/AWYB/wEAAv8BZgEAASEBAAGlAQADXwEAA3cB
+        AAOGAQADlgEAA8sBAAOyAQAD1wEAA90BAAPjAQAD6gEAA/EBAAP4AQAB8AH7Af8BAAGkAqABAAOAAwAB
+        /wIAAf8DAAL/AQAB/wMAAf8BAAH/AQAC/wIAA/8BAAMOARUB6gEUARIB6gEVAUMB6wFtBA4BDwEQAUQB
+        EQFEAZMBbgHqAewBbQEcAXQBRAEQAxEBbgGZAZMBbgGTAZkBbgFEARMB7AHvAewBEwGQAREQAAIOARAB
+        6gGuAewB6gHsARQBQwFtARQBDgEPAg4BDwEQAUsCbgG8AW4B6gHsAe8BkgFuAUsBRAFDARABDwESAZMB
+        dAFuAUoBmQFvAesBFQESAfcBuwFtAZEBbRAAAQ4BQwLqAesC7QH3AWwBbQHsARUBEAERAg4BDwERAW4B
+        kwEcAZkB6wHqAesDkwJEAUMBEAEPARUBbgGTAm4BkwFvAesBRAEVARIBbgHqAbQB7BAAAQ8BSQFtARMC
+        7AHqAewBbAGRAewBFQJDAQ8BDgEPAUMB7AEHAesB9wJtAewB9wEaAZMBSwFDARUBEAEPAREBSgF0AW4B
+        7QF0AW4B6gHrAUQBEwFEARMBkQGuEAABSQEVAhQC9wHvAZIBrgG0AewBEwFLAUoCDwFDAUQB7AHvAuwB
+        EgHqAewB7QHvAbwBkwFFARUBEAEVAUMB6gFzAW4BHAFLAW4BEgHtARIBFAFDARIBFAFsEAABFAETARIB
+        6wH3AgcB9wHrAYsBbAHrARoB6wEPAQ4BEQFFAewB7wHrAW0B6gEUARMB9wG8AQcB7wGTARUBEAESARMC
+        bgHsAXMBkwFtARIB6wFKARMBRAIUARIQAAERARMB6wL3Ae8BjQHsAW0B7AHrAewB7wERAg4BEAFDAW0B
+        HAMSAUMB6wH3AbwB7wHtAewBEwFDAesBEgFuAnMB6wFzAewC6wEcAesBFAEVAREBEhAAARABFAHsAbwB
+        7QHsAe8BkgHtAQcB7AHtAQcBEgEOAQ8BEAERARMB6wEUAWYBrgGRAewB7wG8Ae8B7AHqARUBQwJtAeoB
+        bgGTAeoBbgHtAewB7QGZAW8DbQESEAABEAESAfcCBwGZAuwB6wHtAusBHAFDAQ4BDwEQAREBFAGuAWYB
+        rgG1AZEB7AHtAe8BkgHrAeoCEQHqARQBRAFvAZMBbQGTAW4BbQHsAZkBbwHsAesBkQHqEAABDwFtAQcB
+        kQHvAZkBbQLsAWwBbQETARQBEAMPARABFQGuAWYBFQHqAZEB9wHsAZIB7AHqARIBEQFDAW0BQwEUAXQB
+        kwHsARoBbgFLAXMBHAFvAXQB7AEUARIQAAEPARQCrgHsARwBbQHrAW0BZgHtARQBEgEQAg8CEAFDAW0B
+        EgFmAeoBrgGSA64BbAFmARABQwEUAUMBFQJvAXMBGgF0AW4CkwFvAXMBEgERARIQAAEPAWYBiwGRAewB
+        6wFsAW0B6wESAe8BFQFDARABDwEOAhEBFQGuARUBZgGLAWwBkgOuARIBZgERAUMBEQFDARUBdAFvAZMB
+        mgGTAW4CdAFuAW0BFAEVARQQAAEQARUBiwGuAesBFAESA64B7wEVAREBDwIOAREBQwERAW0CFQGuAWYC
+        rgFtAa4B6gEVAREBQwEPAUMBRAJvARwCmQFuAewCbgHsAeoBbAEREAABDgEQAWYBbAFtAUMBZgHqAYsB
+        7AHtARUBEQEPAg4CQwERAeoBZgEUAfcBbAFmARIB6gGuAeoBFQJDAQ8BFAESAW4BbwFzARwBkwHqAXMB
+        bgGTAW4BEgEUAUMQAAEOAQ8BEwKuAUMB7QEUAWYB7wFtARUBEQEPAg4BEQEVAUMBbQFmARQB7wGuAWYB
+        EgHqAZEBbQEVAkMC6wFtAXMBbgFtAW4B7AHqARwDbgFEARQBZhAAAg8BEQESAewBFQHtAesBEwH3AXIB
+        bAERAw4BQwEUARUBbQESARQB9wGuAWYCbQGSAesDFQHvAewBbgHtBOwBSwFtAW4B7AFnAW4CFBAAAUIB
+        TQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/+BAAs=
+</value>
+  </data>
+  <metadata name="npgsqlCommandBuilder1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>156, 18</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>
