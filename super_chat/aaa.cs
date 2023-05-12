@@ -192,20 +192,42 @@ namespace super_chat
             var l = ch.select(us.Useraccount);
             foreach(var i in l)
             {
-                Button btn = new Button();
-                btn.Size = new Size(155, 70);
-                btn.FlatStyle = FlatStyle.Flat;
-                btn.FlatAppearance.BorderSize = 0;
-                btn.Text = i.ToString();
-                btn.Name = btn.Text;
-                friendlist.Controls.Add(btn);
-                btn.Click += btn_Click1;
-                void btn_Click1(object sender, EventArgs e)
+                var sql = "select * from public.group";
+                var result = db.QueryForTable(sql, null);
+                List<chatgroupM> ret = new List<chatgroupM>();
+                foreach (var row in result)
                 {
-                    label1.Text = btn.Text;
-                    Panel1.Controls.Clear();
-                    LoadM(us.Useraccount,btn.Name);
+                    var model = new chatgroupM(
+                        (string)row["group_name"],
+                        (string)row["user_id"],
+                        (string)row["friend_id"]);
+                    ret.Add(model);
                 }
+                List<string> list = new List<string>();
+                foreach (var item in ret)
+                {
+                    list.Add(item.user1);
+                    list.Add(item.user2);
+                }
+                list = list.Distinct().ToList();
+                if (list.Contains(us.Useraccount))
+                {
+                    Button btn = new Button();
+                    btn.Size = new Size(155, 70);
+                    btn.FlatStyle = FlatStyle.Flat;
+                    btn.FlatAppearance.BorderSize = 0;
+                    btn.Text = i.ToString();
+                    btn.Name = btn.Text;
+                    friendlist.Controls.Add(btn);
+                    btn.Click += btn_Click1;
+                    void btn_Click1(object sender, EventArgs e)
+                    {
+                        label1.Text = btn.Text;
+                        Panel1.Controls.Clear();
+                        LoadM(us.Useraccount, btn.Name);
+                    }
+                }
+                
             }
         }
         private void avatar_Click(object sender, EventArgs e)
@@ -252,35 +274,60 @@ namespace super_chat
             }
             else
             {
-                int flag = 1;
-                foreach (var s in relates)
+                bool idfchar = false;
+                for(int i = 0; i < textBox1.Text.Length; i++)
                 {
-                    if (s.useract == textBox1.Text || s.friendact == textBox1.Text)
+                    if ((int)textBox1.Text[i]>127)
                     {
-                        flag = 0;
+                        idfchar = true;
                         break;
                     }
                 }
-                if (flag == 1)
+                if (idfchar)
                 {
-                    var op = new UserOperation(db);
-                    var f = op.GetUser(textBox1.Text);
-                    if (f != null)
+                    chatoperation cop = new chatoperation(db);
+                    if (cop.selectname(textBox1.Text))
                     {
-                        User fri = new User(f);
-                        new addfriend(db, fri, us).Show();
-                        textBox1.Clear();
+                        new addchat(textBox1.Text,db,us).Show();
                     }
                     else
                     {
-                        MessageBox.Show("未找到该用户！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("未找到该群聊！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         textBox1.Clear();
                     }
                 }
                 else
                 {
-                    MessageBox.Show("已添加该用户!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    textBox1.Clear();
+                    int flag = 1;
+                    foreach (var s in relates)
+                    {
+                        if (s.useract == textBox1.Text || s.friendact == textBox1.Text)
+                        {
+                            flag = 0;
+                            break;
+                        }
+                    }
+                    if (flag == 1)
+                    {
+                        var op = new UserOperation(db);
+                        var f = op.GetUser(textBox1.Text);
+                        if (f != null)
+                        {
+                            User fri = new User(f);
+                            new addfriend(db, fri, us).Show();
+                            textBox1.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("未找到该用户！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                            textBox1.Clear();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("已添加该用户!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        textBox1.Clear();
+                    }
                 }
             }
         }

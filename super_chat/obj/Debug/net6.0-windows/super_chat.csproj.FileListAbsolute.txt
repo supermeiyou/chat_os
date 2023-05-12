@@ -78,3 +78,4 @@ D:\桌面\chat_os\super_chat\obj\Debug\net6.0-windows\super_chat.addfriend.resou
 D:\桌面\chat_os\super_chat\obj\Debug\net6.0-windows\super_chat.aaa.resources
 D:\桌面\chat_os\super_chat\obj\Debug\net6.0-windows\super_chat.Properties.Resources.resources
 D:\桌面\chat_os\super_chat\obj\Debug\net6.0-windows\super_chat.create_chat.resources
+D:\桌面\chat_os\super_chat\obj\Debug\net6.0-windows\super_chat.addchat.resources

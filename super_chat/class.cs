@@ -49,7 +49,7 @@ namespace super_chat
                 ("if_online", (object)user.if_Online),
                 ("last_time",(object)user.lastTime)});
             if (flag == 1) {
-                var usIm = new UserImModel(user.useraccount, "", "", DateTime.Now.Date, "", "", "", db);
+                var usIm = new UserImModel(user.useraccount, "", "", DateTime.Now.Date, "", "", "D:/桌面/chat_os/images/microphone.png", db);
                 var end = CreateIm(usIm);
                 if (end)
                 {
@@ -541,6 +541,20 @@ namespace super_chat
                 }
             return true;
         }
+
+        public bool create(string name, List<string> user ,string name1)
+        {
+            for (int i = 0; i < user.Count; i++)
+            {
+                var sql = "INSERT INTO public.group (group_name,user_id,friend_id) " +
+                       "VALUES(:name,:useraccount,:friendaccount)";
+                var flag = db.Query(sql, 1, new[] {
+                        ("name",(object)name),
+                        ("useraccount", (object)name1),
+                        ("friendaccount",(object)user[i]) });
+            }    
+            return true;
+        }
         public bool delete(string name ,User model)
         {
             var sql = "DELETE FROM public.group where (user_id=:useract or friend_id=:useract,group_name=:name)";
@@ -551,6 +565,26 @@ namespace super_chat
                 return true;
             else 
                 return false;
+        }
+        public bool selectname(string name)
+        {
+            var sql = "select * from public.group";
+            var result = db.QueryForTable(sql, null);
+            List<chatgroupM> ret = new List<chatgroupM>();
+            foreach (var row in result)
+            {
+                var model = new chatgroupM(
+                    (string)row["group_name"],
+                    (string)row["user_id"],
+                    (string)row["friend_id"]);
+                ret.Add(model);
+            }
+            foreach (var item in ret)
+            {
+                if (item.name==name)
+                    return true;
+            }
+            return false;
         }
         public List<string> select(string userid)
         {

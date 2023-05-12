@@ -4,6 +4,9 @@
     <Compile Update="aaa.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="addchat.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="addfriend.cs">
       <SubType>Form</SubType>
     </Compile>
