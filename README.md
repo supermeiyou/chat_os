@@ -4,3 +4,5 @@
 
 
 基于winform的进程间通信，利用了数据库存储以及操作技术，实现的本地聊天软件
+其中的DbMiddleware以及DbMiddlewarePostgresImpl是利用好友的开源组件
+简化了数据库操作的繁琐步骤
