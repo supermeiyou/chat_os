@@ -541,7 +541,6 @@ namespace super_chat
                 }
             return true;
         }
-
         public bool create(string name, List<string> user ,string name1)
         {
             for (int i = 0; i < user.Count; i++)
