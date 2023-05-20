@@ -34,6 +34,7 @@ namespace super_chat
                     (string)row["friend_id"]);
                 ret.Add(model);
             }
+
             List<string> list = new List<string>();
             foreach (var item in ret)
             {
@@ -43,6 +44,7 @@ namespace super_chat
             users = list.Distinct().ToList(); //群成员名字
             flowLayoutPanel1.WrapContents = false;
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
+
             foreach (var item in users)
             {
                 Label l = new Label();

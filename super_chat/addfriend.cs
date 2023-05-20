@@ -47,8 +47,10 @@ namespace super_chat
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             var op =  new Roperation(db);
             var relate = new RelateModel(user.Useraccount, friend.Useraccount,db);
+
             var flag = op.CreateRelate(relate);
             if (flag)
             {
